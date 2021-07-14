@@ -16,7 +16,6 @@ body{
 }
 .top-section{
     display: flex;
-    -ms-flex-align: center;
 }
 .web-title{
     width: 485px;
@@ -198,3 +197,11 @@ article{
     padding-bottom: 60px;
 
 }
+
+
+/* @media only screen and (max-width: 688px) { */
+
+    
+/* } */
+
+   
