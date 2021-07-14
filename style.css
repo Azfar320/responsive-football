@@ -31,8 +31,16 @@ body{
 }
 .web-title button{
     padding: 10px 24px;
+    font-size: 15px;
     background-color: #E02C6D;    
     color: #FFFFFF;
+    transition-property: padding, font-size;
+    transition-duration: 0.8s;
+}
+
+.web-title button:hover{
+    padding: 15px 30px;
+    font-size: 20px;
 }
 .title-img{
     margin-right: 140px;
@@ -41,8 +49,13 @@ body{
 }
 .title-img img{
     width: 556px;
+    transition-property: width;
+    transition-duration: 0.6s;
 }
 
+.title-img img:hover{
+    width: 576px;
+}
 
 /* players section css  */
 
@@ -105,7 +118,7 @@ article{
 }
 
 .logo-section img{
-    width: 482px;
+    width: 480px;
    margin: 0 auto;
 }
 
