@@ -91,4 +91,36 @@ body{
     padding-bottom: 30px;
 }
 
+/* football logo css  */
 
+
+.logo-section{
+    width: 1440px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.logo-section img{
+    width: 482px;
+    margin-left: 460px;
+    margin-right: 481px;
+}
+
+/* social media  */
+
+.social-media{
+    width: 1440px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+
+.media-icons{
+    width: 170px;
+    margin: 20px auto;
+}
+
+.media-icons a img{
+    width: 32px;
+    padding-left: 7px;
+}
