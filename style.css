@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-
-
 body{
     margin: 0px;
     padding: 0px;
@@ -11,13 +9,14 @@ body{
 /* top section style  */
 
 .banner{
-    width: 1440px;
+    width: 100%;
     background-color: #2D25A0;
     margin: 0 auto;
     
 }
 .top-section{
     display: flex;
+    -ms-flex-align: center;
 }
 .web-title{
     width: 485px;
@@ -48,12 +47,16 @@ body{
 /* players section css  */
 
 .article-boundary{
-    margin-top: 100px;
+
+    margin: 0 auto;
+    padding-top: 100px;
     background-color: #FFFFFF;
     display: grid; 
     grid-template-columns: repeat(3, 1fr);
 }
-
+article{
+    width: 420px;
+}
 .article-frame{
     align-items: center;
     box-shadow: 1px 3px 13px rgba(0,0,0,.15);
@@ -67,7 +70,7 @@ body{
     margin: 15px
 }
 .left-side{
-    margin-left: 120px;
+    margin-left: 50px;
 }
 
 .middle-side{
@@ -75,7 +78,7 @@ body{
     margin-right: 30px;
 }
 .right-side{
-    margin-right: 210px;
+    margin-right: 50px;
 }
 .description h3{
     font-size: 28px;
@@ -95,32 +98,46 @@ body{
 
 
 .logo-section{
-    width: 1440px;
+    width: 482px;
+    padding-top: 50px;
     background-color: #FFFFFF;
     margin: 0 auto;
 }
 
 .logo-section img{
     width: 482px;
-    margin-left: 460px;
-    margin-right: 481px;
+   margin: 0 auto;
 }
 
 /* social media  */
 
-.social-media{
-    width: 1440px;
+.social-media-area{
+    width: 100%;
     background-color: #FFFFFF;
-    margin: 0 auto;
 }
 
 
 .media-icons{
-    width: 170px;
+    width: 200px;
     margin: 20px auto;
 }
 
 .media-icons a img{
     width: 32px;
     padding-left: 7px;
+}
+
+/* footer section style  */
+
+.copyright{
+    width: 100%;
+    
+}
+.copyright p{
+    margin: 0 auto;
+    width: 180px;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 60px;
+
 }
