@@ -11,11 +11,15 @@ body{
 /* top section style  */
 
 .top-section{
-    width: 100%;
-    display: flex;
+    width: 1440px;
     background-color: #2D25A0;
+    margin: 0 auto;
+    
 }
 
+.banner{
+    display: flex;
+}
 .web-title{
     width: 485px;
     margin-top: 150px;
