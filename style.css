@@ -106,6 +106,50 @@ article{
     margin-left: 15px;
     padding-bottom: 30px;
 }
+/* news section css */
+
+.football-news h2{
+    text-align: center;
+}
+.news-area{
+    width: 100%;
+    display: flex;
+}
+.news-part{
+    width: 300px;
+    box-shadow: 1px 3px 13px rgba(0,0,0,.15);
+}
+.left-news{
+    margin-left: 50px;
+}
+.middle-news{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.right-news{
+    margin-right: 20px;
+}
+.news-image{
+    width: 290px;
+    margin: 5px, auto;
+}
+
+.news-image img{
+    width: 280px ;
+    margin: 10px 10px;
+}
+
+.news h3{
+    padding-left: 10px;
+}
+.news p{
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.news p a{
+    text-decoration: none;
+}
 
 /* football logo css  */
 
