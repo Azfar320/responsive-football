@@ -10,14 +10,13 @@ body{
 
 /* top section style  */
 
-.top-section{
+.banner{
     width: 1440px;
     background-color: #2D25A0;
     margin: 0 auto;
     
 }
-
-.banner{
+.top-section{
     display: flex;
 }
 .web-title{
